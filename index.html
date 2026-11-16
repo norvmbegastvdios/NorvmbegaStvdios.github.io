@@ -10,10 +10,13 @@
   <p>Unity assets coming soon.</p>
 </body>
 <form action="https://api.web3forms.com/submit" method="POST">
-  <input type="hidden" name="b164e052-2150-4682-97b8-fad5647e7faa" value="b164e052-2150-4682-97b8-fad5647e7faa">
-  <input type="text" name="name" required>
-  <input type="email" name="email" required>
-  <textarea name="message" required></textarea>
-  <button type="submit">Submit</button>
+  <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY">
+  <input type="hidden" name="subject" value="New message from Norvmbega Stvdios site">
+  <input type="hidden" name="from_name" value="Norvmbega Stvdios Website">
+  <div><label for="name">Name</label><input id="name" name="name" required autocomplete="name"></div>
+  <div><label for="email">Email</label><input id="email" name="email" type="email" required autocomplete="email"></div>
+  <div><label for="message">Message</label><textarea id="message" name="message" required></textarea></div>
+  <input class="hp" type="checkbox" name="botcheck" tabindex="-1" autocomplete="off" aria-hidden="true">
+  <button class="btn" type="submit">Send message</button>
 </form>
 </html>
