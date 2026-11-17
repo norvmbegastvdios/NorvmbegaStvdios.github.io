@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 64" role="img" aria-label="Norvmbega Stvdios">
+  <!-- outer cube -->
+  <polygon points="32,4 56.25,18 56.25,46 32,60 7.75,46 7.75,18" fill="#33363D"/>
+  <!-- tesseract links: outer corners to inner corners -->
+  <g stroke="#FFFFFF" stroke-opacity=".4" stroke-width="1.2" stroke-linecap="round">
+    <line x1="32" y1="4" x2="32" y2="12.5"/>
+    <line x1="56.25" y1="18" x2="48.89" y2="22.25"/>
+    <line x1="56.25" y1="46" x2="48.89" y2="41.75"/>
+    <line x1="32" y1="60" x2="32" y2="51.5"/>
+    <line x1="7.75" y1="46" x2="15.11" y2="41.75"/>
+    <line x1="7.75" y1="18" x2="15.11" y2="22.25"/>
+  </g>
+  <!-- N on the left face, S on the right face, skewed to follow each face and rising into the top -->
+  <g fill="none" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M18.41 39.85V24.15L29.7 46.36V17.64" stroke="#6F89B3"/>
+    <path d="M45.59 24.15L34.3 17.64V32H45.59V39.85L34.3 46.36" stroke="#C8742B"/>
+  </g>
+  <text x="72" y="30" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="22" font-weight="800" letter-spacing="2" fill="#6F89B3">NORVMBEGA</text>
+  <text x="72" y="52" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="15" font-weight="600" letter-spacing="9" fill="#C8742B">STVDIOS</text>
+</svg>

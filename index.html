@@ -1,22 +1,65 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Norvmbega Stvdios</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Norvmbega Stvdios – Unity Assets</title>
+<meta name="description" content="Tools and art for Unity developers, from Norvmbega Stvdios.">
+<link rel="icon" href="stvdiologo.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Norvmbega Stvdios</h1>
-  <p>Unity assets coming soon.</p>
+<div class="top">
+  <header><div class="wrap">
+    <a href="index.html"><img src="stvdiobanner.svg" alt="Norvmbega Stvdios"></a>
+    <nav>
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="docs.html">Docs</a>
+      <a href="changelog.html">Changelog</a>
+      <a href="support.html">Support</a>
+    </nav>
+  </div></header>
+
+  <main class="wrap">
+    <section class="hero">
+      <h1>Unity assets built to save you time.</h1>
+      <p>Our first asset is on the way. Tell us what you're building and we'll let you know when it launches.</p>
+      <a class="btn" href="#contact">Get in touch</a>
+      <a class="btn alt" href="#features">What's coming</a>
+    </section>
+
+    <section id="features" class="features">
+      <h2>What's coming</h2>
+      <div class="grid">
+        <div class="card"><h3>Feature one</h3><p>A short, benefit-focused line about your asset.</p></div>
+        <div class="card"><h3>Feature two</h3><p>Another reason developers will want it.</p></div>
+        <div class="card"><h3>Feature three</h3><p>Works with the render pipelines you support.</p></div>
+      </div>
+      <div class="shot">Screenshot, GIF or trailer goes here</div>
+    </section>
+  </main>
+</div>
+
+<section id="contact" class="contact">
+  <div class="wrap">
+    <h2>Contact us</h2>
+    <p>Questions, feature requests or support. We read every message.</p>
+    <form action="https://api.web3forms.com/submit" method="POST">
+      <input type="hidden" name="access_key" value="b164e052-2150-4682-97b8-fad5647e7faa">
+      <input type="hidden" name="subject" value="New message from Norvmbega Stvdios site">
+      <input type="hidden" name="from_name" value="Norvmbega Stvdios Website">
+      <div><label for="name">Name</label><input id="name" name="name" required autocomplete="name"></div>
+      <div><label for="email">Email</label><input id="email" name="email" type="email" required autocomplete="email"></div>
+      <div><label for="message">Message</label><textarea id="message" name="message" required></textarea></div>
+      <input class="hp" type="checkbox" name="botcheck" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <button class="btn" type="submit">Send message</button>
+    </form>
+  </div>
+</section>
+
+<footer><div class="wrap">
+  &copy; 2026 Norvmbega Stvdios
+  <a href="docs.html">Docs</a><a href="changelog.html">Changelog</a><a href="support.html">Support</a><a href="privacy.html">Privacy</a>
+</div></footer>
 </body>
-<form action="https://api.web3forms.com/submit" method="POST">
-  <input type="hidden" name="access_key" value="b164e052-2150-4682-97b8-fad5647e7faa">
-  <input type="hidden" name="subject" value="New message from Norvmbega Stvdios site">
-  <input type="hidden" name="from_name" value="Norvmbega Stvdios Website">
-  <div><label for="name">Name</label><input id="name" name="name" required autocomplete="name"></div>
-  <div><label for="email">Email</label><input id="email" name="email" type="email" required autocomplete="email"></div>
-  <div><label for="message">Message</label><textarea id="message" name="message" required></textarea></div>
-  <input class="hp" type="checkbox" name="botcheck" tabindex="-1" autocomplete="off" aria-hidden="true">
-  <button class="btn" type="submit">Send message</button>
-</form>
 </html>
